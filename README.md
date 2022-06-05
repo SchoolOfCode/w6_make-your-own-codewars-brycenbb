@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7973680&assignment_repo_type=AssignmentRepo)
 # Make your own CodeWars
 
 You've spent the past few weeks solving katas on CodeWars, and you might think that they're written by an elite cabal of software geniuses (or not if you've run across a few less-than-stellar katas!). Not so - they're written by ordinary programmers, and you're now officially School of Code-qualified to join in and give writing your own a try.
