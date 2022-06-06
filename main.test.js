@@ -29,7 +29,7 @@ test('Tests for valid input', () => {
   ).toBe(0);
 });
 
-test('Tests for correct sums', () => {
+test('Tests for correct sums 1', () => {
   //Expect a non zero sum for correct input
   expect(
     objectArraySum([
@@ -43,4 +43,20 @@ test('Tests for correct sums', () => {
       { boolean: false, numbers: [1, 2] },
     ])
   ).toBe(2);
+});
+
+test('Tests for correct sums 2', () => {
+  //Expect a non zero sum for correct input
+  expect(
+    objectArraySum([
+      { boolean: true, numbers: [2, 4, 5, 6, 7, 8, 9, 10] },
+      { boolean: true, numbers: [1, 2, 997] },
+    ])
+  ).toBe(1000);
+  expect(
+    objectArraySum([
+      { boolean: true, numbers: [0, 0, 0, 0, 1] },
+      { boolean: true, numbers: [0, 0, 2, 0, 0, 100] },
+    ])
+  ).toBe(102);
 });
